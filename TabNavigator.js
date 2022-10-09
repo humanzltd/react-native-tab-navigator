@@ -20,8 +20,8 @@ export default class TabNavigator extends React.Component {
   static propTypes = {
     ...ViewPropTypes,
     sceneStyle: ViewPropTypes.style,
-    tabBarStyle: TabBar.propTypes.style,
-    tabBarShadowStyle: TabBar.propTypes.shadowStyle,
+    tabBarStyle: ViewPropTypes.style,
+    tabBarShadowStyle: ViewPropTypes.style,
     hidesTabTouch: PropTypes.bool
   };
 
